@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Total no.of links= 155]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matching]]>
+    </line>
+    <line>
+      <![CDATA[Total no of links = 165]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matching]]>
+    </line>
+    <line>
+      <![CDATA[Total no.of Links = 160]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54176" started-at="2018-08-19T17:02:46Z" finished-at="2018-08-19T17:03:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54176" started-at="2018-08-19T17:02:46Z" finished-at="2018-08-19T17:03:40Z">
+      <class name="testScript.TestTwitter">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.TestTwitter@91161c7]" name="launchBrowser" is-config="true" duration-ms="5431" started-at="2018-08-19T17:03:10Z" finished-at="2018-08-19T17:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testTwitter()[pri:0, instance:testScript.TestTwitter@91161c7]" name="testTwitter" duration-ms="10625" started-at="2018-08-19T17:03:15Z" finished-at="2018-08-19T17:03:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no of links = 165]]>
+            </line>
+            <line>
+              <![CDATA[Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTwitter -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.TestTwitter@91161c7]" name="closeBrowser" is-config="true" duration-ms="719" started-at="2018-08-19T17:03:26Z" finished-at="2018-08-19T17:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.TestTwitter -->
+      <class name="testScript.TestInsta">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.TestInsta@604ed9f0]" name="launchBrowser" is-config="true" duration-ms="4349" started-at="2018-08-19T17:03:26Z" finished-at="2018-08-19T17:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testInsta()[pri:0, instance:testScript.TestInsta@604ed9f0]" name="testInsta" duration-ms="8681" started-at="2018-08-19T17:03:31Z" finished-at="2018-08-19T17:03:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no.of Links = 160]]>
+            </line>
+            <line>
+              <![CDATA[Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInsta -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.TestInsta@604ed9f0]" name="closeBrowser" is-config="true" duration-ms="733" started-at="2018-08-19T17:03:39Z" finished-at="2018-08-19T17:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.TestInsta -->
+      <class name="testScript.TestFacebook">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.TestFacebook@5c3bd550]" name="launchBrowser" is-config="true" duration-ms="6943" started-at="2018-08-19T17:02:46Z" finished-at="2018-08-19T17:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testFacebook()[pri:0, instance:testScript.TestFacebook@5c3bd550]" name="testFacebook" duration-ms="15695" started-at="2018-08-19T17:02:53Z" finished-at="2018-08-19T17:03:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no.of links= 155]]>
+            </line>
+            <line>
+              <![CDATA[Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebook -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.TestFacebook@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="926" started-at="2018-08-19T17:03:09Z" finished-at="2018-08-19T17:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.TestFacebook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
