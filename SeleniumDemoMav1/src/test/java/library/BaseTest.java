@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest implements Constants {
 	public WebDriver driver;
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void launchBrowser() {
 		System.setProperty(CHROME_key, CHROME_PATH);
 		driver=new ChromeDriver();
